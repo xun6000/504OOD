@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pacman</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/view.js"></script>
+</head>
+<body>
+    <div align="center">
+        <h1  style="text-align:center;">PACMAN</h1>
+        <h3 id="score">0</h3>
+        <div style="position: relative; height: 500px; width: 500px; top: 20px;">
+            <div style="position: absolute;">
+                <canvas width="500" height="500" style="border: 1px solid #000000"></canvas>
+            </div>
+            <div style="position: absolute;">
+                <canvas width="500" height="500" style="border: 1px solid #000000"></canvas>
+            </div>
+            <div id="banner-div" style="width: 450px; height: 200px; position: absolute;
+            left: 50%; top: 50%; transform: translateY(-50%) translateX(-50%); ">
+                <img id="img" src="img/banner_start.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
