@@ -1,0 +1,93 @@
+.message-body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: inherit;
+    height: auto;
+}
+
+.message-main-received {
+    padding: 10px 20px;
+    max-width: 60%;
+}
+
+.received {
+    width: auto !important;
+    padding: 4px 5px 7px !important;
+    border-radius: 10px 10px 10px 0;
+    background: #f2f2f2;
+    word-wrap: break-word;
+    word-break: break-all;
+    display: inline-block;
+}
+
+.message-text {
+    margin: 0 !important;
+    padding: 5px !important;
+    word-wrap:break-word;
+    font-weight: 200;
+    font-size: 20px;
+    padding-bottom: 0 !important;
+}
+
+.message-ack {
+    float: right;
+    margin: 0 !important;
+    margin-right: 10px !important;
+    margin-top: 15px !important;
+    font-size: 10px;
+    color: #9a9a9a;
+}
+
+.message-main-sent {
+    padding: 3px 20px !important;
+    margin-left: 40% !important;
+    max-width: 60%;
+}
+
+.sent {
+    float: right;
+    width: auto !important;
+    background: #dcf8c6;
+    border-radius: 10px 10px 0 10px;
+    padding: 4px 5px 7px !important;
+    display: inline-block;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#btn-sendMsg {
+    margin-top: 90px;
+}
+
+#PMAllText {
+    horiz-align: center;
+}
+
+.sendMsgArea {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.newMsgIcon {
+    background-color: #4cd137;
+    border-radius: 50%;
+    height: 15px;
+    width:15px;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.nonNewMsgIcon {
+    background-color: #a6a6a6;
+    border-radius: 50%;
+    height: 15px;
+    width:15px;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.btn-start-chat {
+    float: right !important;
+    left: 20px;
+
+}
