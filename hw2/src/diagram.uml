@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="525.5" y="200.0">edu.rice.comp504.model.DispatchAdapter</node>
+    <node x="0.0" y="100.0">edu.rice.comp504.model.ball.Randomball</node>
+    <node x="322.0" y="100.0">edu.rice.comp504.model.ball.Changingsizeball</node>
+    <node x="871.0" y="100.0">edu.rice.comp504.model.ball.Speedingball</node>
+    <node x="517.0" y="280.0">edu.rice.comp504.controller.BallWorldController</node>
+    <node x="564.4318181818182" y="0.0">edu.rice.comp504.model.ball.ABall</node>
+    <node x="1019.0" y="100.0">edu.rice.comp504.model.ball.Straightball</node>
+    <node x="141.0" y="100.0">edu.rice.comp504.model.ball.Changingcolorball</node>
+    <node x="496.0" y="100.0">edu.rice.comp504.model.ball.Lowball</node>
+    <node x="612.0" y="100.0">edu.rice.comp504.model.ball.NullBall</node>
+    <node x="728.0" y="100.0">edu.rice.comp504.model.ball.Rotationball</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.rice.comp504.model.ball.Rotationball" target="edu.rice.comp504.model.ball.ABall">
+      <point x="0.0" y="-15.0" />
+      <point x="789.5" y="70.0" />
+      <point x="620.1193181818182" y="70.0" />
+      <point x="15.1875" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.DispatchAdapter" target="edu.rice.comp504.model.ball.Randomball">
+      <point x="-66.9375" y="-15.0" />
+      <point x="535.0625" y="180.0" />
+      <point x="60.5" y="180.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.controller.BallWorldController" target="edu.rice.comp504.model.DispatchAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.DispatchAdapter" target="edu.rice.comp504.model.ball.Changingsizeball">
+      <point x="-28.6875" y="-15.0" />
+      <point x="573.3125" y="160.0" />
+      <point x="399.0" y="160.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.DispatchAdapter" target="edu.rice.comp504.model.ball.NullBall">
+      <point x="9.5625" y="-15.0" />
+      <point x="611.5625" y="150.0" />
+      <point x="660.0" y="150.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.DispatchAdapter" target="edu.rice.comp504.model.ball.Speedingball">
+      <point x="47.8125" y="-15.0" />
+      <point x="649.8125" y="170.0" />
+      <point x="935.0" y="170.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.NullBall" target="edu.rice.comp504.model.ball.ABall">
+      <point x="0.0" y="-15.0" />
+      <point x="660.0" y="80.0" />
+      <point x="609.9943181818182" y="80.0" />
+      <point x="5.0625" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Speedingball" target="edu.rice.comp504.model.ball.ABall">
+      <point x="0.0" y="-15.0" />
+      <point x="935.0" y="60.0" />
+      <point x="630.2443181818182" y="60.0" />
+      <point x="25.3125" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Changingcolorball" target="edu.rice.comp504.model.ball.ABall">
+      <point x="0.0" y="-15.0" />
+      <point x="221.5" y="60.0" />
+      <point x="579.6193181818182" y="60.0" />
+      <point x="-25.3125" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Straightball" target="edu.rice.comp504.model.ball.ABall">
+      <point x="0.0" y="-15.0" />
+      <point x="1079.0" y="50.0" />
+      <point x="640.3693181818182" y="50.0" />
+      <point x="35.4375" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.DispatchAdapter" target="edu.rice.comp504.model.ball.Changingcolorball">
+      <point x="-47.8125" y="-15.0" />
+      <point x="554.1875" y="170.0" />
+      <point x="221.5" y="170.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.DispatchAdapter" target="edu.rice.comp504.model.ball.Rotationball">
+      <point x="28.6875" y="-15.0" />
+      <point x="630.6875" y="160.0" />
+      <point x="789.5" y="160.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Lowball" target="edu.rice.comp504.model.ball.ABall">
+      <point x="0.0" y="-15.0" />
+      <point x="544.0" y="80.0" />
+      <point x="599.8693181818182" y="80.0" />
+      <point x="-5.0625" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Randomball" target="edu.rice.comp504.model.ball.ABall">
+      <point x="0.0" y="-15.0" />
+      <point x="60.5" y="50.0" />
+      <point x="569.4943181818182" y="50.0" />
+      <point x="-35.4375" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.DispatchAdapter" target="edu.rice.comp504.model.ball.Lowball">
+      <point x="-9.5625" y="-15.0" />
+      <point x="592.4375" y="150.0" />
+      <point x="544.0" y="150.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.DispatchAdapter" target="edu.rice.comp504.model.ball.Straightball">
+      <point x="66.9375" y="-15.0" />
+      <point x="668.9375" y="180.0" />
+      <point x="1079.0" y="180.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.ball.Changingsizeball" target="edu.rice.comp504.model.ball.ABall">
+      <point x="0.0" y="-15.0" />
+      <point x="399.0" y="70.0" />
+      <point x="589.7443181818182" y="70.0" />
+      <point x="-15.1875" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="160.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

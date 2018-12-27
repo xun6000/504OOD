@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/ballworld.js"></script>
+</head>
+<body>
+<div style="position:fixed; top:3em; left:0em;">
+
+    <canvas id= "mycanvas" width="800" height="800" style="border: 1px solid #000000"></canvas>
+    <!--<button id="btn-load">Make Noraml Ball</button>-->
+
+    <button id="btn-noramlball">Make Noraml Ball</button>
+    <button id="btn-strategyball">Make Strategy Ball</button>
+    <button id="btn-switch">Switch</button>
+    <select id="strategy_select" multiple="multiple">
+
+        <option value="1">StraightStrategy</option>
+        <option value="2">SpeedStrategy</option>
+        <option value="3">ChangeSizeStrategy</option>
+        <option value="4">RandomStrategy</option>
+        <option value="5">RotateStrategy</option>
+        <option value="6">ChangeColorStrategy</option>
+        <option value="7">LowStrategy</option>
+
+    </select>
+
+
+
+
+    <button id="btn-clear">Clear</button>
+</div>
+
+
+</body>
+</html>
